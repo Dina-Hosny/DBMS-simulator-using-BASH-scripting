@@ -91,7 +91,7 @@ emp_id,emp_name,job_name,manager_id,hire_date
 
 
 ## Tools and Technologies:
-- Shell Scripting.
+- Bash/Shell Scripting.
 - Linux RedHat.
 - PuTTY.
 - Virtual Machines.
