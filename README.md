@@ -57,9 +57,40 @@ When A user run it the screen will be cleared and ask for the below entry and ne
 - If Table Name not already exist inside this Database then will ask you to enter the Column Names according to the entered number of columns.
 - The final output for this script must create a file named with the entered Table Name.
 ```bash
-  MySQL/DataBases/EmplyeeDB/employee.table:
+MySQL/DataBases/EmplyeeDB/employee.table:
 #cat employee.table
 emp_id,emp_name,job_name,manager_id,hire_date
 ```
 - Each Column name is separated by comma.
 
+### 6) Insert A New Row in a Table
+- Only users in ```DB_admins.db``` can run this script.
+- The script will show all available created Databases inside ```MySQL/DataBases``` to select your working database.
+- If the selected Database owner is the same with the user that run this script, then will show all available tables inside this database to select from it.
+- For the selected Table The script will start reading the table header then will ask you to enter these data.
+- First column must be always unique.
+
+### 7) Select Data from Table
+- The script will show all available created Databases inside ```MySQL/DataBases``` to select your working database.
+- Then will show all available tables inside this database to select from it.
+- Now you will have two options:
+    - Show The content of the selected table will be shown by cat this table name.
+    ```bash
+    #cat employee.table
+    emp_id,emp_name,job_name,hire_year
+    1,Mohamed,unix admin,2021
+    2,Ahmed,unix admin,2016
+    3,Ahmed,DBA,2019
+    ```
+    - Search inside table take a string then show you the rows that have this string.
+
+### 8) Delete Row from Table
+- From the selected table each row the contain a specific string must be deleted.
+- Then show you the updated table.
+
+
+## Tools and Technologies:
+- Bash Scripting.
+- Linux RedHat.
+- PuTTY.
+- Virtual Machines.
