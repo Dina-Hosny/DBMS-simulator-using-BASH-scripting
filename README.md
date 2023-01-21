@@ -4,9 +4,6 @@ The project’s purpose is to build a Database Management System with its tasks 
 
 ## Project Discription:
 
-The Project will be under Directory Called ```MySQL```
-There will be a main script called ```MySQL/main.sh```
-
 A bash project that simulate the MySQL database and do the following:
 When A user run it the screen will be cleared and ask for the below entry and need to be selected by it’s number Each one will run a specific script.
 - Create Database user.
@@ -18,6 +15,10 @@ When A user run it the screen will be cleared and ask for the below entry and ne
 - Select Data from Table
 
 ## Project Steps:
+
+The Project will be under Directory Called ```MySQL```.
+
+There will be a main script called ```MySQL/main.sh```.
 
 ### 1) Create Database user
 - By default, will be a system user called “oracle”
